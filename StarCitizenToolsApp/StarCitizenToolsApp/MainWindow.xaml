@@ -1,0 +1,24 @@
+﻿<Window x:Class="StarCitizenToolsApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:starcitizentoolsapp="clr-namespace:StarCitizenToolsApp"
+        mc:Ignorable="d"
+        Title="Star Citizen Mining Helper" Height="450" Width="800"
+        Background="#061119" Foreground="#B0C4DE"
+         Icon="icon.png">
+
+    <Grid Background="#061119">
+        <!-- Fond principal -->
+        <TabControl Background="#061119" Foreground="#B0C4DE"
+                    BorderBrush="Transparent">
+            <TabItem Header="Mining Helper" Background="#061119" Foreground="#B0C4DE">
+                <starcitizentoolsapp:MiningHelperTab/>
+            </TabItem>
+            <TabItem Header="Tab" Background="#061119" Foreground="#B0C4DE">
+                <starcitizentoolsapp:SecondTab/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

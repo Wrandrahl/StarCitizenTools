@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:StarCitizenToolsApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="CustomHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#B0C4DE"/>
+            <Setter Property="Foreground" Value="#061119"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
     </Application.Resources>
 </Application>

@@ -34,7 +34,8 @@ namespace StarCitizenToolsApp
             ("Igneous", 1950, "data/deposit/Igneous.png"),
             ("Obsidian", 1790, "data/deposit/Obsidian.png"),
             ("Quartzite", 1820, "data/deposit/Quartzite.png"),
-            ("Atacamite", 1800, "data/deposit/Atacamite.png")
+            ("Atacamite", 1800, "data/deposit/Atacamite.png"),
+            ("Shale", 1730, "data/deposit/Shale.png")
         };
 
         private void InputTextBox_KeyDown(object sender, KeyEventArgs e)

@@ -2,7 +2,35 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              Height="Auto" Width="Auto">
-    <Grid>
-        <TextBlock Text="Contenu du deuxième onglet" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Grid Background="#061119">
+        <DataGrid x:Name="RocksDataGrid"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  Background="#061119"
+                  Foreground="#B0C4DE"
+                  HeadersVisibility="Column"
+                  GridLinesVisibility="All"
+                  BorderBrush="#B0C4DE"
+                  BorderThickness="1"
+                  FontSize="16"
+                  FontWeight="Bold"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch"
+                  ColumnHeaderStyle="{StaticResource CustomHeaderStyle}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Roche" Binding="{Binding Name}" Width="*" />
+                <DataGridTextColumn Header="1x" Binding="{Binding M1}" Width="*" />
+                <DataGridTextColumn Header="2x" Binding="{Binding M2}" Width="*" />
+                <DataGridTextColumn Header="3x" Binding="{Binding M3}" Width="*" />
+                <DataGridTextColumn Header="4x" Binding="{Binding M4}" Width="*" />
+                <DataGridTextColumn Header="5x" Binding="{Binding M5}" Width="*" />
+                <DataGridTextColumn Header="6x" Binding="{Binding M6}" Width="*" />
+                <DataGridTextColumn Header="7x" Binding="{Binding M7}" Width="*" />
+                <DataGridTextColumn Header="8x" Binding="{Binding M8}" Width="*" />
+                <DataGridTextColumn Header="9x" Binding="{Binding M9}" Width="*" />
+                <DataGridTextColumn Header="10x" Binding="{Binding M10}" Width="*" />
+                <DataGridTextColumn Header="11x" Binding="{Binding M11}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </UserControl>

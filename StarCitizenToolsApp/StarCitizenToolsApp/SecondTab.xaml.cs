@@ -23,6 +23,25 @@ namespace StarCitizenToolsApp
         public SecondTab()
         {
             InitializeComponent();
+            LoadData();
+        }
+
+
+        private void LoadData()
+        {
+            var rocks = new List<RockData>
+            {
+                new RockData("Felsic", 1770),
+                new RockData("Gneiss", 1840),
+                new RockData("Granite", 1920),
+                new RockData("Igneous", 1950),
+                new RockData("Obsidian", 1790),
+                new RockData("Quartzite", 1820),
+                new RockData("Atacamite", 1800),
+                new RockData("Shale", 1730)
+            };
+
+            RocksDataGrid.ItemsSource = rocks;
         }
     }
 }

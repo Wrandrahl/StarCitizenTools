@@ -18,7 +18,7 @@ namespace StarCitizenToolsApp
         private const string Beryl = "Beryl (Raw)";
         private const string Bexalite = "Bexalite (Raw)";
         private const string Borase = "Borase (Ore)";
-        private const string Aluminum = "Aluminum(Ore)";
+        private const string Aluminum = "Aluminum (Ore)";
         private const string Corundum = "Corundum (Raw)";
         private const string Gold = "Gold (Ore)";
         private const string Hephaestanite = "Hephaestanite (Raw)";

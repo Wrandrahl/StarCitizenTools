@@ -20,8 +20,8 @@
                     <TabItem Header="Deposit" Background="#061119" Foreground="#B0C4DE">
                         <starcitizentoolsapp:DepositTab/>
                     </TabItem>
-                    <TabItem Header="Gems" Background="#061119" Foreground="#B0C4DE">
-                        <starcitizentoolsapp:GemTab/>
+                    <TabItem Header="Future tool (mineral finder)" Background="#061119" Foreground="#B0C4DE">
+                        
                     </TabItem>
                 </TabControl>
             </TabItem>

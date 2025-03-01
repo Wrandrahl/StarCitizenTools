@@ -18,9 +18,9 @@ namespace StarCitizenToolsApp
     /// <summary>
     /// Logique d'interaction pour SecondTab.xaml
     /// </summary>
-    public partial class DepositTab : UserControl
+    public partial class GemTab : UserControl
     {
-        public DepositTab()
+        public GemTab()
         {
             InitializeComponent();
             LoadData();

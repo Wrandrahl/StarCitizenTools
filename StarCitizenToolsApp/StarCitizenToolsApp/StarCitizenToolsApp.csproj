@@ -44,4 +44,10 @@
     </Resource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="DepositTab.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

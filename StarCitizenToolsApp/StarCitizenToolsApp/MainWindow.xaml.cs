@@ -24,6 +24,10 @@ namespace StarCitizenToolsApp
         {
             InitializeComponent();
         }
-       
+
+        private void MiningHelperTab_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

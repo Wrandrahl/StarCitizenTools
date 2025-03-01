@@ -10,15 +10,27 @@
          Icon="icon.png">
 
     <Grid Background="#061119">
-        <!-- Fond principal -->
-        <TabControl Background="#061119" Foreground="#B0C4DE"
-                    BorderBrush="Transparent">
-            <TabItem Header="Mining Helper" Background="#061119" Foreground="#B0C4DE">
-                <starcitizentoolsapp:MiningHelperTab/>
+        <TabControl Background="#061119" Foreground="#B0C4DE"  BorderBrush="Transparent">
+            <TabItem Header="Mining Tools" Background="#061119" Foreground="#B0C4DE">
+                <TabControl Background="#061119" Foreground="#B0C4DE"
+                            BorderBrush="Transparent">
+                    <TabItem Header="Mining Helper" Background="#061119" Foreground="#B0C4DE" BorderThickness="1">
+                        <starcitizentoolsapp:MiningHelperTab Loaded="MiningHelperTab_Loaded"/>
+                    </TabItem>
+                    <TabItem Header="Deposit" Background="#061119" Foreground="#B0C4DE">
+                        <starcitizentoolsapp:DepositTab/>
+                    </TabItem>
+                    <TabItem Header="Gems" Background="#061119" Foreground="#B0C4DE">
+                        <starcitizentoolsapp:GemTab/>
+                    </TabItem>
+                </TabControl>
             </TabItem>
-            <TabItem Header="Tab" Background="#061119" Foreground="#B0C4DE">
-                <starcitizentoolsapp:SecondTab/>
+            <TabItem Header="Incomming Tools" Background="#061119" Foreground="#B0C4DE">
+
             </TabItem>
+
         </TabControl>
+        <!-- Fond principal -->
+
     </Grid>
 </Window>
